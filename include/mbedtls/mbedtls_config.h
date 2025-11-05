@@ -75,6 +75,7 @@ extern void libmbedtls_free(void *ptr);
 #define MBEDTLS_ECP_C
 #define MBEDTLS_ENTROPY_C
 #define MBEDTLS_ERROR_C
+#define MBEDTLS_GENPRIME
 #define MBEDTLS_GCM_C
 #define MBEDTLS_HKDF_C
 #define MBEDTLS_HMAC_DRBG_C
