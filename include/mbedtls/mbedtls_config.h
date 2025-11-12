@@ -17,6 +17,7 @@ extern int libmbedtls_snprintf(char *s, size_t n, const char *format, ...);
 extern void* libmbedtls_calloc(size_t num, size_t size);
 extern void libmbedtls_free(void *ptr);
 
+#define MBEDTLS_ALLOW_PRIVATE_ACCESS
 #define MBEDTLS_HAVE_ASM
 #define MBEDTLS_NO_UDBL_DIVISION
 #define MBEDTLS_HAVE_TIME
