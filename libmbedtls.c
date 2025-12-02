@@ -16,7 +16,7 @@ int libmbedtls_snprintf(char *s, size_t n, const char *format, ...)
     int Result;
 
     va_start(ArgList, format);
-    Result = _snprintf(s, n, format, ArgList);
+    Result = _vsnprintf(s, n, format, ArgList);
     va_end(ArgList);
 
     return Result;
